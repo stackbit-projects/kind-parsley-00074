@@ -10,7 +10,8 @@ body {
 	color: $color-body-text;
 	line-height: 1.66667;
 	text-rendering: optimizeLegibility;
-	@include font-smooth();
+    @include font-smooth();
+    background-color: yellow;
 }
 
 @each $style in map-keys($theme-styles) {
