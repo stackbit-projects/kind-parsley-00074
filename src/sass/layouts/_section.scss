@@ -130,7 +130,7 @@
 .style-classic {
 	.section__title {
 		&:after {
-			background-color: $color-classic-sect-underline;
+			background-color: yellow;
 			content: "";
 			display: block;
 			height: 2px;
